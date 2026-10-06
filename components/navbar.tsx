@@ -92,7 +92,7 @@ function MegaMenu({ active, setActive }: { active: string | null; setActive: (va
       <div className="mx-auto flex max-w-7xl gap-12 px-6 py-8 lg:px-10">
         <div className="max-w-xs border-r border-[#dfe3ed] pr-12">
           <p className="eyebrow text-[#ef7120]">Explore</p>
-          <h2 className="mt-3 text-2xl font-semibold tracking-[-0.04em] text-[#182044]">{active} at Qamaris Lines</h2>
+          <h2 className="mt-3 text-2xl font-semibold tracking-[-0.04em] text-[#182044]">{active}</h2>
           <p className="mt-3 text-sm leading-6 text-[#68708d]">Not Just Commitment. We Simply Deliver.
                                       Qamaris Lines provides reliable point-to-point, port-to-port and door-to-door container liner, 
                                       multimodal transport and logistics solutions, connecting continents through
