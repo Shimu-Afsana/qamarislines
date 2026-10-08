@@ -2,7 +2,7 @@
 deployment:
   tasks:
     - export APPPATH=/home/qamarislines/qamarisshippinglines.com
+    - /bin/cp -a . $APPPATH
     - cd $APPPATH && npm ci
     - cd $APPPATH && npm run build
-    - mkdir -p $APPPATH/tmp
     - touch $APPPATH/tmp/restart.txt
