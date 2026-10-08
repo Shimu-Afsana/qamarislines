@@ -77,6 +77,7 @@ function DesktopNav({ active, setActive }: { active: string | null; setActive: (
       ))}
       
       <a className="nav-link" href="/articles">Schedule</a>
+      <a className="nav-link" href="/news">News</a>
       <a className="nav-link" href="/contact">Contact Us</a>
       
     </div>
