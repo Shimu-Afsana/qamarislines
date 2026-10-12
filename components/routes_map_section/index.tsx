@@ -140,10 +140,10 @@ const eastboundData = [
     title: "Shanghai ",
     content: createPortContent(
       [
-        "/images/Shanghai port 1.jpg",
-        "/images/Shanghai port 2.jpg",
-        "/images/Shanghai port 3.jpg",
-        "/images/Shanghai port 4.jpg",
+        "/images/shanghai port 1.jpg",
+        "/images/shanghai port 2.jpg",
+        "/images/shanghai port 3.jpg",
+        "/images/shanghai port 4.jpg",
       ],
       "Shanghai "
     ),
@@ -242,8 +242,8 @@ const westboundData = [
       [
         "/images/Nhava Sheva port1.jpg",
         "/images/Nhava Sheva port 2.jpg",
-        "/images/Nhava Sheva Port 3.jpg",
-        "/images/Nhava Sheva Port 4.jpg",
+        "/images/Nhava Sheva port 3.jpg",
+        "/images/Nhava Sheva port 4.jpg",
       ],
       "Nhava Sheva "
     ),
@@ -253,9 +253,9 @@ const westboundData = [
     title: "Mundra ",
     content: createPortContent(
       [
-        "/images/Mundra Port 1.jpg",
-        "/images/Mundra Port 2.jpg",
-        "/images/Mundra Port 3.jpg",
+        "/images/Mundra port 1.jpg",
+        "/images/Mundra port 2.jpg",
+        "/images/Mundra port 3.jpg",
         "/images/V port 4.jpg",
       ],
       "Mundra "
