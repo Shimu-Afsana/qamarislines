@@ -5,13 +5,13 @@ import Image from 'next/image'
 import { ArrowUpRight, ChevronDown, ChevronRight, Globe2, Menu, MoveRight, PackageCheck, Route, Search, Ship, X } from 'lucide-react'
 
 const navGroups = [
-  { label: 'Our Company', links: [ { label: 'Why Qamaris Lines', href: '/about/why-qamaris-lines' }, 
-    { label: 'Our Company', href: '/about us' },
-     { label: 'Brief Corporate profile', href: '/about/brief-corporate-profile' },
-     { label: 'Global Partnership', href: '/about/global-partnership' },
-      { label: 'Career',href: '/about/career' }, 
-    { label: 'Social Responsibility',href: '/about/social-responsibility' },
-  { label: 'IT Innovation',href: '/about/it-innovation' },], },
+  { label: 'Our Company', links: [ { label: 'Why Qamaris Lines', href: '/our-company/why-qamaris-lines' }, 
+    { label: 'Our Company', href: '/our-company' },
+     { label: 'Brief Corporate profile', href: '/our-company/brief-corporate-profile' },
+     { label: 'Global Partnership', href: '/our-company/global-partnership' },
+      { label: 'Career',href: '/our-company/career' }, 
+    { label: 'Social Responsibility',href: '/our-company/social-responsibility' },
+  { label: 'IT Innovation',href: '/our-company/it-innovation' },], },
  
   { label: 'Business', links: [ { label: 'Container Liner Services', href: '/business/container-liner-services' },
       { label: 'Multipurpose Liner Services', href: '/business/multipurpose-liner-services' },
