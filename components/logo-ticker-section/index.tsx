@@ -3,23 +3,16 @@ import Image from "next/image";
 import Marquee from "react-fast-marquee";
 
 const logos = [
-  {
-    name: "Eagle-Ocean",
-    logoImage: "/images/eagle ocean marine.jpg",
-  },
+ 
   { name: "IGPI", logoImage: "/images/IGP&I.png" },
   {
     name: "BIC",
     logoImage: "/images/BIC LOGO.png",
   },
-  {
-    name: "The-American-Club",
-    logoImage: "/images/the-american-club.jpeg",
-  },
+ 
   { name: "TT-Club", logoImage: "/images/TT Club.png" },
    { name: "SAARC", logoImage: "/images/saarc.jpg" },
     { name: "Orient logo", logoImage: "/images/Orient logo.png" },
-     { name: "KR loGo", logoImage: "/images/KR loGo.png" },
       { name: "Bureau veritas", logoImage: "/images/Bureau veritas.png" },
       { name: "ISM", logoImage: "/images/ISM.jpg" },
       { name: "IACS", logoImage: "/images/IACS.png" },
@@ -27,19 +20,13 @@ const logos = [
 
       
   //  Duplicate for continuous scroll
-   {
-    name: "Eagle-Ocean",
-    logoImage: "/images/eagle ocean marine.jpg",
-  },
+ 
   { name: "IGPI", logoImage: "/images/IGP&I.png" },
   {
     name: "BIC",
     logoImage: "/images/BIC LOGO.png",
   },
-  {
-    name: "The-American-Club",
-    logoImage: "/images/the-american-club.jpeg",
-  },
+
   { name: "TT-Club", logoImage: "/images/TT Club.png" },
    { name: "SAARC", logoImage: "/images/saarc.jpg" },
     { name: "Orient logo", logoImage: "/images/Orient logo.png" },

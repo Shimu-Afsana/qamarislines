@@ -46,7 +46,7 @@ const createPortContent = (images: string[], portName: string) => (
 
 const eastboundData = [
   {
-    title: "Khor Fakkan Port",
+    title: "Khor Fakkan ",
     content: createPortContent(
       [
         "/images/Khor Fakkan port 1.jpg",
@@ -54,12 +54,12 @@ const eastboundData = [
         "/images/Khor Fakkan port 3.jpg",
         "/images/Khor Fakkan port 4.jpg",
       ],
-      "Khor Fakkan Port"
+      "Khor Fakkan "
     ),
   },
 
   {
-    title: "Mundra Port",
+    title: "Mundra ",
     content: createPortContent(
       [
         "/images/Mundra port 1.jpg",
@@ -67,12 +67,12 @@ const eastboundData = [
         "/images/Mundra port 3.jpg",
         "/images/V port 4.jpg",
       ],
-      "Mundra Port"
+      "Mundra "
     ),
   },
 
   {
-    title: "Karachi Port",
+    title: "Karachi ",
     content: createPortContent(
       [
         "/images/Karachi port 1.jpg",
@@ -80,12 +80,12 @@ const eastboundData = [
         "/images/Karachi port 3.jpg",
         "/images/Karachi port 4.jpg",
       ],
-      "Karachi Port"
+      "Karachi "
     ),
   },
 
   {
-    title: "Nhava Sheva Port",
+    title: "Nhava Sheva ",
     content: createPortContent(
       [
         "/images/Nhava Sheva port1.jpg",
@@ -93,12 +93,12 @@ const eastboundData = [
         "/images/Nhava Sheva port 3.jpg",
         "/images/Nhava Sheva port 4.jpg",
       ],
-      "Nhava Sheva Port"
+      "Nhava Sheva "
     ),
   },
 
   {
-    title: "Colombo Port",
+    title: "Colombo ",
     content: createPortContent(
       [
         "/images/Colombo  port 1.jpg",
@@ -106,7 +106,7 @@ const eastboundData = [
         "/images/Colombo port 3.jpg",
         "/images/Colombo  port 4.jpg",
       ],
-      "Colombo Port"
+      "Colombo "
     ),
   },
 
@@ -124,7 +124,7 @@ const eastboundData = [
   },
 
   {
-    title: "Hong Kong Port",
+    title: "Hong Kong ",
     content: createPortContent(
       [
         "/images/Hong Kong port 1.jpg",
@@ -132,12 +132,12 @@ const eastboundData = [
         "/images/Hong Kong port 3.jpg",
         "/images/Hong Kong port 4.jpg",
       ],
-      "Hong Kong Port"
+      "Hong Kong "
     ),
   },
 
   {
-    title: "Shanghai Port",
+    title: "Shanghai ",
     content: createPortContent(
       [
         "/images/Shanghai port 1.jpg",
@@ -145,7 +145,7 @@ const eastboundData = [
         "/images/Shanghai port 3.jpg",
         "/images/Shanghai port 4.jpg",
       ],
-      "Shanghai Port"
+      "Shanghai "
     ),
   },
 ];
@@ -172,20 +172,20 @@ const eastboundData = [
 
 const westboundData = [
   {
-    title: "Shanghai Port",
+    title: "Shanghai ",
     content: createPortContent(
       [
-        "/images/Shanghai port 1.jpg",
-        "/images/Shanghai port 2.jpg",
-        "/images/Shanghai port 3.jpg",
-        "/images/Shanghai port 4.jpg",
+        "/images/shanghai port 1.jpg",
+        "/images/shanghai port 2.jpg",
+        "/images/shanghai port 3.jpg",
+        "/images/shanghai port 4.jpg",
       ],
-      "Shanghai Port"
+      "Shanghai "
     ),
   },
 
   {
-    title: "Ningbo Port",
+    title: "Ningbo ",
     content: createPortContent(
       [
         "/images/Ningbo port1.jpg",
@@ -193,12 +193,12 @@ const westboundData = [
         "/images/Ningbo  port3.jpg",
         "/images/Ningbo port4.jpg",
       ],
-      "Ningbo Port"
+      "Ningbo "
     ),
   },
 
   {
-    title: "Shekou Port",
+    title: "Shekou",
     content: createPortContent(
       [
         "/images/Shekou port 1.jpg",
@@ -206,12 +206,12 @@ const westboundData = [
         "/images/Shekou port3.jpg",
         "/images/Shekou port 4.jpg",
       ],
-      "Shekou Port"
+      "Shekou "
     ),
   },
 
   {
-    title: "Singapore Port",
+    title: "Singapore",
     content: createPortContent(
       [
         "/images/Singapore port1.jpg",
@@ -219,7 +219,7 @@ const westboundData = [
         "/images/Singapore port3.jpg",
         "/images/Singapore port 4.jpg",
       ],
-      "Singapore Port"
+      "Singapore"
     ),
   },
 
@@ -237,20 +237,20 @@ const westboundData = [
   },
 
   {
-    title: "Nhava Sheva Port",
+    title: "Nhava Sheva ",
     content: createPortContent(
       [
-        "/images/Nhava Sheva Port1.jpg",
-        "/images/Nhava Sheva Port 2.jpg",
+        "/images/Nhava Sheva port1.jpg",
+        "/images/Nhava Sheva port 2.jpg",
         "/images/Nhava Sheva Port 3.jpg",
         "/images/Nhava Sheva Port 4.jpg",
       ],
-      "Nhava Sheva Port"
+      "Nhava Sheva "
     ),
   },
 
   {
-    title: "Mundra Port",
+    title: "Mundra ",
     content: createPortContent(
       [
         "/images/Mundra Port 1.jpg",
@@ -258,20 +258,20 @@ const westboundData = [
         "/images/Mundra Port 3.jpg",
         "/images/V port 4.jpg",
       ],
-      "Mundra Port"
+      "Mundra "
     ),
   },
 
   {
-    title: "Karachi Port",
+    title: "Karachi ",
     content: createPortContent(
       [
-        "/images/Karachi Port 1.jpg",
-        "/images/Karachi Port 2.jpg",
-        "/images/Karachi Port 3.jpg",
-        "/images/Karachi Port 4.jpg",
+        "/images/Karachi port 1.jpg",
+        "/images/Karachi port 2.jpg",
+        "/images/Karachi port 3.jpg",
+        "/images/Karachi port 4.jpg",
       ],
-      "Karachi Port"
+      "Karachi "
     ),
   },
 ];
