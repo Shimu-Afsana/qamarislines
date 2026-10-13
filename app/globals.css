@@ -404,3 +404,326 @@
     transition-duration: 0.01ms !important;
   }
 }
+
+
+
+/* =========================================================
+   QAMARIS LINES — SCHEDULE PAGE
+   ========================================================= */
+
+.schedule-page {
+  min-width: 0;
+  background: linear-gradient(180deg, #f7f9fc 0%, #ffffff 18rem);
+  padding: clamp(1rem, 3vw, 3rem) clamp(.65rem, 2.5vw, 2.5rem) 4rem;
+}
+
+.schedule-section {
+  margin: 0 auto clamp(3rem, 6vw, 6rem);
+  max-width: 140rem;
+}
+
+.schedule-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 1.25rem;
+  margin: 0 auto 1rem;
+  padding: 0 clamp(.25rem, 1vw, 1rem);
+  color: #17213c;
+}
+
+.schedule-heading-copy {
+  min-width: 0;
+}
+
+.schedule-kicker {
+  margin: 0 0 .45rem;
+  color: #EF7120;
+  font-size: .68rem;
+  font-weight: 800;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+}
+
+.schedule-heading h1 {
+  margin: 0;
+  color: #2B3386;
+  font-size: clamp(1.25rem, 2.3vw, 2rem);
+  font-weight: 850;
+  letter-spacing: -.025em;
+}
+
+.schedule-heading p:not(.schedule-kicker) {
+  margin: .25rem 0 0;
+  color: #516078;
+  font-size: clamp(.9rem, 1.4vw, 1.1rem);
+  font-weight: 650;
+}
+
+.schedule-heading-meta {
+  display: flex;
+  flex: 0 0 auto;
+  gap: .5rem;
+  color: #516078;
+  font-size: .68rem;
+  font-weight: 750;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+}
+
+.schedule-heading-meta span {
+  padding: .42rem .6rem;
+  border: 1px solid #d6dce8;
+  border-radius: 999px;
+  background: #fff;
+}
+
+.schedule-table-card {
+  overflow: hidden;
+  border: 1px solid #d6dce8;
+  border-radius: .7rem;
+  background: #fff;
+  box-shadow: 0 10px 28px rgba(23, 33, 60, .08);
+}
+
+.schedule-table-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: .65rem .9rem;
+  border-bottom: 1px solid #d6dce8;
+  color: #2B3386;
+  font-size: .72rem;
+  font-weight: 800;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
+
+.schedule-scroll-note {
+  color: #7b8498;
+  font-size: .63rem;
+  font-weight: 650;
+  letter-spacing: .02em;
+  text-transform: none;
+}
+
+/* Horizontal scrolling */
+.schedule-table-shell {
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-color: #7b8498 #eef1f6;
+  scrollbar-width: auto;
+}
+
+.schedule-table-shell:focus-visible {
+  outline: 3px solid #EF7120;
+  outline-offset: 3px;
+}
+
+/* Main schedule table */
+.schedule-table {
+  min-width: 1700px;
+  width: max-content;
+  border-collapse: separate;
+  border-spacing: 0;
+  color: #17213c;
+  font-size: .72rem;
+}
+
+.schedule-table th,
+.schedule-table td {
+  height: 2.05rem;
+  padding: .3rem .38rem;
+  border-right: 1px solid #aeb7c5;
+  border-bottom: 1px solid #aeb7c5;
+  text-align: center;
+  white-space: nowrap;
+}
+
+/* Main port header */
+.schedule-table thead th {
+  background: #2B3386;
+  color: #fff;
+  font-size: .68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* ETA / ETD subheaders */
+.schedule-table thead tr:nth-child(2) th {
+  background: #e9edf5;
+  color: #2B3386;
+  font-size: .64rem;
+}
+
+.schedule-table thead .subhead {
+  text-transform: uppercase;
+}
+
+/* Alternate rows and hover */
+.schedule-table tbody tr:nth-child(even) td,
+.schedule-table tbody tr:nth-child(even) th {
+  background: #f5f7fa;
+}
+
+.schedule-table tbody tr:hover td,
+.schedule-table tbody tr:hover th {
+  background: #fff5ef;
+}
+
+.schedule-table tbody td {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Column widths */
+.schedule-table .vessel-column,
+.schedule-table .sticky-vessel {
+  width: 9.5rem;
+  min-width: 9.5rem;
+}
+
+.schedule-table .voyage-column,
+.schedule-table .sticky-voyage {
+  width: 4.8rem;
+  min-width: 4.8rem;
+}
+
+.schedule-table .port-column {
+  width: 6.55rem;
+  min-width: 6.55rem;
+}
+
+/* Sticky Vessel and Voyage columns */
+.schedule-table .sticky-vessel,
+.schedule-table .sticky-voyage {
+  position: sticky;
+  z-index: 2;
+}
+
+.schedule-table .sticky-vessel {
+  left: 0;
+}
+
+.schedule-table .sticky-voyage {
+  left: 9.5rem;
+  box-shadow: 5px 0 0 -4px #2B3386;
+}
+
+.schedule-table .sticky-head {
+  z-index: 4;
+}
+
+/* Fixed column text */
+.schedule-table .body-vessel,
+.schedule-table .body-voyage {
+  color: #2B3386;
+  font-weight: 700;
+  text-align: left;
+}
+
+/* Opaque backgrounds for sticky cells */
+.schedule-table .body-vessel,
+.schedule-table .body-voyage,
+.schedule-table thead .sticky-vessel,
+.schedule-table thead .sticky-voyage {
+  background: #fff;
+}
+
+.schedule-table thead .sticky-vessel,
+.schedule-table thead .sticky-voyage {
+  background: #2B3386;
+  text-align: center;
+}
+
+.schedule-table tbody tr:nth-child(even) .body-vessel,
+.schedule-table tbody tr:nth-child(even) .body-voyage {
+  background: #f5f7fa;
+}
+
+.schedule-table tbody tr:hover .body-vessel,
+.schedule-table tbody tr:hover .body-voyage {
+  background: #fff5ef;
+}
+
+/* Mobile and small screens */
+@media (max-width: 640px) {
+  .schedule-page {
+    padding: 1rem .5rem 2rem;
+  }
+
+  .schedule-section {
+    margin-bottom: 2.75rem;
+  }
+
+  .schedule-heading {
+    display: block;
+    margin-bottom: .75rem;
+  }
+
+  .schedule-heading h1 {
+    font-size: 1.25rem;
+  }
+
+  .schedule-heading-meta {
+    margin-top: .7rem;
+  }
+
+  .schedule-heading-meta span {
+    font-size: .58rem;
+  }
+
+  .schedule-table-toolbar {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: .25rem;
+    padding: .6rem .7rem;
+  }
+
+  .schedule-scroll-note {
+    font-size: .62rem;
+  }
+
+  .schedule-table {
+    font-size: .68rem;
+  }
+
+  .schedule-table th,
+  .schedule-table td {
+    height: 1.9rem;
+    padding: .25rem .32rem;
+  }
+}
+
+/* Subtle entrance animation */
+@media (prefers-reduced-motion: no-preference) {
+  .schedule-section {
+    animation: schedule-enter .45s ease both;
+  }
+
+  .schedule-section:nth-child(2) {
+    animation-delay: .08s;
+  }
+
+  .schedule-section:nth-child(3) {
+    animation-delay: .16s;
+  }
+
+  .schedule-section:nth-child(4) {
+    animation-delay: .24s;
+  }
+}
+
+@keyframes schedule-enter {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+

@@ -40,7 +40,7 @@ function SeaLloydMark() {
     
       <span className="leading-none">
       <img
-        src="/images/Qamaris line logo.png"
+        src="/images/QSL.Logo.-landscape-01 (1).png"
         alt="Sea Lloyd"
         className="h-14 w-auto"
       />

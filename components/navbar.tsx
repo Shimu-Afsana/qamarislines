@@ -53,7 +53,7 @@ function Logo() {
   return (
     <a href="/" className="flex items-center" aria-label="Qamaris Lines home">
       <img
-        src="/images/Qamaris line logo.png"
+        src="/images/QSL.Logo.-landscape-01 (1).png"
         alt="Qamaris Lines"
         className="h-10 w-auto"
       />
@@ -76,7 +76,7 @@ function DesktopNav({ active, setActive }: { active: string | null; setActive: (
         </div>
       ))}
       
-      <a className="nav-link" href="/articles">Schedule</a>
+      <a className="nav-link" href="/schedule">Schedule</a>
       <a className="nav-link" href="/news">News</a>
       <a className="nav-link" href="/contact">Contact Us</a>
       
